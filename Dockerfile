@@ -1,5 +1,3 @@
-FROM ubuntu:16.04
-
 # Install
 RUN apt-get update -y
 RUN apt-get install -y python3-pip cfv cksfv p7zip-full p7zip-rar unrar rar git
